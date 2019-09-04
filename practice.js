@@ -1,8 +1,11 @@
-
-function say(greeting, firstName) {
-  console.log(`${greeting}, ${firstName}!`)
+var animal = 'dog';
+ 
+function makeZoo() {
+  var animal = 'cat';
+ 
+  console.log(`I think I'll put this ${animal} in the zoo.`);
 }
  
-say("Ciao", "Isabel") 
-say("Sayonara", "Ronnie") 
-say("Catch ya later", "alligator") 
+makeZoo(); // "I think I'll put this cat in the zoo."
+ 
+animal // "dog"
